@@ -1,0 +1,115 @@
+.header {
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+    padding-top: 0.5%;
+    padding-bottom: 0.3%;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.header__logo {
+    height: 45px;
+    width: 85px;
+    margin: 5% 2% 1% 5%;
+    object-fit: contain;
+}
+
+@media (max-width: 460px) {
+    .header__logo {
+        width: 70px;
+    }
+}
+
+.header__nav {
+    display: flex;
+    flex: 0.2;
+    justify-content: space-evenly;
+    margin-right: 2px;
+}
+
+.header__link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.header__option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 5px;
+    min-width: 57px;
+}
+
+.header__option:hover {
+    border: 0.7px solid;
+    border-color: wheat;
+    border-radius: 5%;
+}
+
+.header__optionOne {
+    font-size: 10px;
+    color: white;
+}
+
+.header__optionTwo {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+@media (max-width: 460px) {
+    .header__optionTwo {
+        font-size: 13px;
+    }
+}
+
+.header__search {
+    display: flex;
+    flex: 0.9;
+    margin-right: 1%;
+    margin-left: 2%;
+    max-width: 950px;
+    border-radius: 3px;
+}
+
+.header__searchInput {
+    height: 17px !important;
+    object-fit: contain;
+    border: none;
+    width: 100%;
+    padding: 10.5px;
+    align-items: center;
+}
+
+.header__searchIcon {
+    background-color: chocolate;
+    padding: 7px;
+    height: 2% !important;
+    align-items: center;
+}
+
+.header__optionCart {
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2px;
+}
+
+.header__optionCart:hover {
+    border: 0.1px solid;
+    border-color: wheat;
+    border-radius: 5%;
+}
+
+.header__ordernos {
+    padding-left: 7px;
+    position: fixed;
+}
+
+.cart__icon {
+    z-index: 1;
+    position: relative;
+    padding-top: 17px;
+}
