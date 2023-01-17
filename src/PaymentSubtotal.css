@@ -1,0 +1,31 @@
+.paymentSubtotal {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    min-width: 110px;
+    padding: 4px 8px 10px 4px;
+    background-color: whitesmoke;
+    border-radius: 7px;
+    margin-top: 8px;
+    margin-right: 4px;
+    height: 50px;
+}
+
+@media (max-width: 505px) {
+    .paymentSubtotal>p {
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.paymentSubtotal__amount {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.PaymentSubtotal__amount>strong {
+    font-size: 18px;
+}
